@@ -1,0 +1,6 @@
+# VS Code
+.DS_Store
+
+# Auxiliary Files
+audio_files/
+models/
