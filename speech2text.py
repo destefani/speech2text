@@ -32,3 +32,8 @@ data16 = np.frombuffer(buffer, dtype=np.int16)
 text = model.stt(data16)
 
 # Save text
+f = open('output_text.txt', 'w')
+f.write(text)
+f.close()
+
+
